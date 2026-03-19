@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.all{
+    padding: 2rem;
+     background-color: #1F2937;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+   
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  
+}
+nav ul a{
+    color: white;
+    font-size: 18px;
+}
+
+.hero{
+    padding: 2rem;
+    height: 50vh;
+    align-items: center;
+    align-content: center;
+
+
+}
+
+.heroInfo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.dataOne{
+    width: 25%;
+}
+.dataOne h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+
+
+.dataOne p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 1.5rem;
+    
+}
+.dataOne a{
+    padding: 0.5rem;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 0.3rem;
+}
+.dataTwo{
+    height: 15rem;
+    width: 35rem;
+    background-color: rgb(158, 158, 158);
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.bodyTwoAll{
+    padding: 3rem;
+}
+
+.bodyTwo h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.itemData{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 2.5rem;
+}
+
+.bodyTwo h2{
+    margin-bottom: 2rem;
+}
+
+.containers {
+    text-align: center;
+    max-width: 15rem;
+}
+.containers .item{
+   
+    height: 15rem;
+    width: 15rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    border: 1px solid rgb(36, 59, 162);
+    margin-bottom: 0.5rem;
+}
+.quote{
+    background-color: #E5E7ED;
+    padding: 6rem;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    width: 100%S;
+}
+
+.quote .word{
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.arthor{
+    max-width: 50%;
+}
+
+.name{
+    font-weight: 900;
+    margin-left: 36rem;
+    margin-top: 0rem;
+}
+
+.callAction{
+    padding: 3rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.actContainer{
+    background-color: #3882F6;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    color: white;
+}
+
+.actContainer a{
+    padding: 0.5rem;
+    color: white;
+    border-radius: 0.3rem;
+    border: 1px solid white;
+}
+
+footer{
+    padding: 2rem;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    background-color: #1F2937;
+    color: white;
+}
